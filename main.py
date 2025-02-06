@@ -47,7 +47,7 @@ def main():
                 return
             for shot in shots:
                 if object.collision_detection(shot):
-                    object.kill()
+                    object.split()
                     shot.kill()
                     break
             
